@@ -10,7 +10,6 @@ A lot of persistent NPC changes require NG+ reset, but you can sometimes spoof i
 | -------------- | ----------------------------------------------------------------------------- |
 | Trait          | Appearance Data                                                               |
 | Stats          | XP, Level, Level multiplier, and Properties                                   |
-| -------------- | ----------------------------------------------------------------------------- |
 
 - Template actors fully override anything on the NPC records. For example Cora's initial dark hair and wrong hair cut bug were caused by the linked trait template actor's setting.
 
