@@ -1,0 +1,9 @@
+- [x] Restore Generic NPC spawner for Creatures ==DID NOT WORK imposes rules on the final NPC that revert changes needed from the leveled list==
+- [ ] Finish remaining caves with keyword VCOH_NOT_FIXED
+- [ ] Random spawn system using scripting or leveled NPC list and place object
+- [ ] MAJOR: Set state parent alternate to be the herd markers as these caves are nor sometimes spawning creatures on their own.
+- [ ] Create spooky cave with spacer ghosts and eventually custom idle taunts
+- [ ] 50 heatleach cave needs dropped to 30 50 is too much for the AI threading
+- [ ] Faction caves need a chest with themed loot
+- [ ] Fix occupied cave which is just occupied with corpses
+- [ ] Figure out hillside cave/caverns it is not spawning either

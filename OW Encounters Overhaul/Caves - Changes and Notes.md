@@ -10,7 +10,13 @@ Ecliptic Outpost Cave, will generate a small ecliptic force and themed chest.
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Outpost
+	- Archimedes - Archimedes V-b - Frozen Craters
+	- Archimedes - Archimedes I - Hills
+	- Verne - Verne II - Mountains
+	- Fermi - Fermi VII-a - Hills
+	- Ixyll - Ixyll II - Hills
+	- Eridani - Eridani IV - Coniferous Forest
 - Description:
 	- Long tunnel the medium round room
 	- Can take 2-3 groups
@@ -28,8 +34,11 @@ Creature spawn test cave which ultimately failed now just spawns some creatures 
 	- PlanetWaterAbundance00None = 0
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
-- Description: TBD
+	- Fermi - Fermi VII-a - Hills
+	- Eridani - Eridani II - Hills
+	- Eridani - Eridani III - Frozen Dunes
+- Description:
+    - long tunnel with little cavern at the end
 - Spawns
 	- PCM_Gamma-Vulpes_Gamma-Vulpes-II-a_PredatorA
 	- PCM_Gamma-Vulpes_Gamma-Vulpes-I_PredatorB
@@ -44,7 +53,10 @@ Crimson Fleet Outpost Cave, will generate a small crimson fleet force and themed
 	- PlanetWaterAbundance00None = 0
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes II - Frozen Plains
+	- Eridani - Eridani II - Rocky Desert
+	- Eridani - Eridani II - Outpost
+	- Eridani - Eridani III - Frozen Dunes
 - Description: 
 	- Small cave with pillar in middle
 	- Can only handle 1 group
@@ -64,6 +76,9 @@ Royal terrormorphs abuse cave, spawns a group of terrormorphs and heatleaches to
 - Found In:
 	- Archimedes - Archimedes II - Volcanic
 	- Archimedes - Archimedes III - Savanna
+	- Archimedes - Archimedes V-a - Savanna
+	- Verne - Verne II - Mountains
+	- Eridani - Eridani IV - Coniferous Forest
 - Description:
 	- Main room with 2 offshoot rooms
 - Spawns
@@ -82,7 +97,9 @@ Random Human Outpost Cave, will generate a medium sized human force and themed b
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Verne - Verne II - Mountains
+	- Celebrai - Celebrai II - Mountains
+	- Eridani - Eridani III - Sandy Desert
 - Description:
 	- Weird circular cavern
 	- FYI it spawned creatures like the RE Overlay/Lair trigger worked for once
@@ -99,7 +116,11 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-b - Frozen Craters
+	- Fermi - Fermi VII-a - Frozen Hills
+	- Celebrai - Celebrai II - Mountains
+	- Eridani - Eridani II - Rocky Desert
+	- Eridani - Eridani II - Hills
 - Description:
 	- Neat multilevel cave that can handle 2-3 groups of mobs
 - Spawns
@@ -116,6 +137,8 @@ __NOT HANDLED YET__
 - Type: Zone In Cave
 - Found In:
 	- Kang - Kang III - Rocky Desert
+	- Celebrai - Celebrai II - Hills
+	- Eridani - Eridani II - Frozen Hills
 - Description:
 	- One large cavern with a lot of fog and gas jets. 
 	- Can handle 2 groups
@@ -130,6 +153,11 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Type: Zone In Cave
 - Found In:
 	- Archimedes - Archimedes II - Volcanic
+	- Archimedes - Archimedes V-a - Outpost
+	- Verne - Verne II - Frozen Crevasses
+	- Celebrai - Celebrai II - Outpost
+	- Eridani - Eridani IV - Coniferous Forest
+	- Eridani - Eridani IV-b - Outpost
 - Description:
 	- Small root filled cave system
 	- Can handle 1-2 groups
@@ -146,7 +174,11 @@ Another caves to abuse JaeDL's heatleach terrormorph spawners in all his mods
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Savanna
+	- Archimedes - Archimedes V-a - Outpost
+	- Verne - Verne II - Mountains
+	- Celebrai - Celebrai II - Frozen Plains
+	- Eridani - Eridani IV - Coniferous Forest
 - Description:
 	- This is the base for the Cora Dungeon
 	- Big side room and huge main cavern perfect for the heatleaches
@@ -162,8 +194,9 @@ Large Group Outpost Cave, will generate a large spacer force and themed boss che
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
-- Description: TBD
+	- Ixyll - Ixyll II - Hills
+- Description:
+    - Large main arena like room with small balcony type area
 - Spawns
 	- Spacer Boss
 	- Spacer Heavy
@@ -181,7 +214,12 @@ The First Outpost Cave, will generate a small The First force and themed chest.
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Savanna
+	- Archimedes - Archimedes II - Frozen Plains
+	- Fermi - Fermi III - Deciduous Forest
+	- Eridani - Eridani II - Rocky Desert
+	- Eridani - Eridani II - Outpost
+	- Eridani - Eridani IV-b - Outpost
 - Description:
 	- Long cavern 
 	- Has rock pile but that is mostly it
@@ -198,7 +236,10 @@ Starborn Outpost Cave, will generate a small starborn force and themed chest.
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Savanna
+	- Fermi - Fermi III - Outpost
+	- Eridani - Eridani IV-b - Outpost
+	- Kang - Kang III - Outpost
 - Description: 
 	- Is huge multi-tiered cavern/canyon with multiple paths and rooms
 	- Capable of 5-8 groups 
@@ -216,7 +257,7 @@ Random Human Outpost Cave, will generate a small human force and themed chest.
 - Keywords: None
 - Type: Fully Open World - No Zone
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Outpost
 - Description:  
 	- Small 1 room hive cave 
 	- Has clutter with carts and random mats
@@ -232,7 +273,10 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Outpost
+	- Fermi - Fermi VII-a - Hills
+	- Celebrai - Celebrai II - Outpost
+	- Eridani - Eridani II - Outpost
 - Description: 
 	- Large crystal bridged cavern with 2 floors and  nooks to find stuff in
 	- Can handle 1-2 groups on lower floor and 1 group up top
@@ -249,7 +293,10 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Savanna
+	- Archimedes - Archimedes II - Volcanic
+	- Fermi - Fermi VII-a - Frozen Hills
+	- Celebrai - Celebrai II - Hills
 - Description: 
 	- Small to medium tunnel cave with fungal vibe
 	- 2 groups max
@@ -264,6 +311,13 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Type: Zone In Cave
 - Found In:
 	- Archimedes - Archimedes II - Volcanic
+	- Archimedes - Archimedes III - Deciduous Forest
+	- Archimedes - Archimedes III - Mountains
+	- Archimedes - Archimedes V-b - Frozen Craters
+	- Fermi - Fermi III - Mountains
+	- Fermi - Fermi III - Outpost
+	- Eridani - Eridani II - Hills
+	- Eridani - Eridani III - Frozen Dunes
 - Description:
 	- Really just a long tunnel and large room with mars red dirt
 	- Probably 1 group maybe 2 groups
@@ -277,7 +331,10 @@ Syndicate Outpost Cave, will generate a small syndicate force and themed chest.
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Verne - Verne II - Frozen Crevasses
+	- Fermi - Fermi III - Outpost
+	- Celebrai - Celebrai II - Hills
+	- Eridani - Eridani III - Outpost
 - Description: 
 	- Large round tunnel easy to get lost in
 	- Can handle 3 groups
@@ -295,7 +352,10 @@ Syndicate Outpost Cave, will generate a small syndicate force and themed chest.
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes II - Frozen Plains
+	- Celebrai - Celebrai II - Mountains
+	- Eridani - Eridani III - Outpost
+	- Eridani - Eridani IV - Coniferous Forest
 - Description: 
 	- Large multi-level/multi-room system with human camping stuff all over
 	- Can handle 6-8 groups
@@ -325,6 +385,9 @@ Initial terrormorph test cave
 - Found In:
 	- Archimedes - Archimedes II - Volcanic
 	- Archimedes - Archimedes III - Savanna
+	- Archimedes - Archimedes III - Swamp
+	- Fermi - Fermi III - Mountains
+	- Ixyll - Ixyll II - Hills
 - Description:
 	- Large round cavern
 - Spawns: None 
@@ -337,7 +400,14 @@ Initial terrormorph test cave
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes II - Volcanic
+	- Archimedes - Archimedes I - Hills
+	- Fermi - Fermi III - Mountains
+	- Fermi - Fermi III - Deciduous Forest
+	- Fermi - Fermi VII-a - Hills
+	- Ixyll - Ixyll II - Hills
+	- Eridani - Eridani II - Outpost
+	- Eridani - Eridani IV - Coniferous Forest
 - Description: 
 	- Long cavern with a bunch of stalactites and stalagmites all over. 
 	- Can safely handle 4-6 groups spread out
@@ -352,6 +422,10 @@ Initial terrormorph test cave
 - Type: Zone In Cave
 - Found In:
 	- Archimedes - Archimedes II - Volcanic
+	- Archimedes - Archimedes III - Wetlands
+	- Archimedes - Archimedes I - Hills
+	- Eridani - Eridani III - Outpost
+	- Eridani - Eridani IV-b - Outpost
 - Description: 
 	- Large crystal lined cave with 2 side rooms and a barge main room
 	- Can support 3-4 groups of mobs
@@ -365,7 +439,12 @@ Initial terrormorph test cave
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Outpost
+	- Archimedes - Archimedes I - Hills
+	- Fermi - Fermi III - Mountains
+	- Fermi - Fermi III - Outpost
+	- Ixyll - Ixyll II - Outpost
+	- Eridani - Eridani II - Outpost
 - Description: 
 	- Very small cave 
 	- Has a side cubby and a lootable rock pile
@@ -379,7 +458,11 @@ Initial terrormorph test cave
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes III - Wetlands
+	- Verne - Verne II - Coniferous Forest
+	- Fermi - Fermi III - Outpost
+	- Celebrai - Celebrai II - Hills
+	- Eridani - Eridani II - Frozen Hills
 - Description: 
 	- Single tiered room with giant green crystals
 	- Really can only handle 1 maybe 2 groups if one group is in the hallway and the other on the floor 
@@ -394,6 +477,14 @@ Initial terrormorph test cave
 - Type: Zone In Cave
 - Found In:
 	- Archimedes - Archimedes III - Savanna
+	- Archimedes - Archimedes III - Mountains
+	- Archimedes - Archimedes V-a - Savanna
+	- Archimedes - Archimedes I - Rocky Desert
+	- Fermi - Fermi III - Outpost
+	- Celebrai - Celebrai II - Outpost
+	- Ixyll - Ixyll II - Hills
+	- Eridani - Eridani II - Rocky Desert
+	- Eridani - Eridani II - Hills
 - Description:
 	- Long tunnel cave
 	- Final semi hidden room has a rock pile
@@ -407,7 +498,10 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-b - Frozen Craters
+	- Celebrai - Celebrai II - Mountains
+	- Ixyll - Ixyll II - Outpost
+	- Eridani - Eridani II - Hills
 - Description: 
 	- Small multiplatform cave 
 	- 1-2 groups
@@ -439,7 +533,9 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Savanna
+	- Archimedes - Archimedes I - Hills
+	- Kang - Kang III - Outpost
 - Description: 
 	- Medium multi room cave with branching side rooms
 	- Capable of 3-4 groups
@@ -453,7 +549,10 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Outpost
+	- Archimedes - Archimedes V-b - Frozen Craters
+	- Fermi - Fermi VII-a - Frozen Hills
+	- Kang - Kang III - Rocky Desert
 - Description: 
 	- Standard long round cavern was probably a template for the others. 
 - Spawns: None
@@ -466,7 +565,11 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes II - Volcanic
+	- Archimedes - Archimedes V-b - Frozen Craters
+	- Celebrai - Celebrai II - Hills
+	- Eridani - Eridani II - Rocky Desert
+	- Eridani - Eridani II - Outpost
 - Description:
 	- Large figure 8 track with a lot of gas vents.
 	- Can handle 4-6 groups
@@ -480,7 +583,9 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes I - Hills
+	- Fermi - Fermi III - Deciduous Forest
+	- Celebrai - Celebrai II - Hills
 - Description:
 	- Huge multilevel cave
 	- Has multiple harvest nodes and a rock pile
@@ -494,7 +599,13 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes II - Frozen Plains
+	- Archimedes - Archimedes V-b - Frozen Craters
+	- Archimedes - Archimedes I - Rocky Desert
+	- Fermi - Fermi III - Outpost
+	- Ixyll - Ixyll II - Hills
+	- Eridani - Eridani II - Rocky Desert
+	- Eridani - Eridani III - Outpost
 - Description: 
 	- Long winding circular cavern with lots of gas jet
 	- Can handle 5-7 groups
@@ -507,7 +618,9 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 - Keywords: None
 - Type: Zone In Cave
 - Found In:
-	- SYSTEM - Planet - Zone
+	- Archimedes - Archimedes V-a - Outpost
+	- Eridani - Eridani II - Frozen Hills
+	- Eridani - Eridani III - Sandy Desert
 - Description: 
 	- Huge cavern with pillars
 	- Has multiple harvest nodes and a rock pile
@@ -517,6 +630,7 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
 	- PCM_Feynman_Feynman-III_PredatorA
 	- PCM_Feynman_Feynman-III_PredatorB
 	- PCM_Feynman_Feynman-I_PreyA
+	- Ixyll - Ixyll II - Hills
 
 ## Tiered Cave (OEZW008)
 Large multi-faction battle with multiple possible outcomes before you get to the battlefield. 
@@ -527,6 +641,9 @@ Large multi-faction battle with multiple possible outcomes before you get to the
 - Type: Zone In Cave
 - Found In:
 	- Archimedes - Archimedes III - Deciduous Forest
+	- Archimedes - Archimedes III - Swamp
+	- Archimedes - Archimedes I - Rocky Desert
+	- Fermi - Fermi VII-a - Frozen Hills
 - Description: 
 	- Huge multi-level cavern with multiple pathways
 	- Easily supports 4-6 groups
@@ -538,3 +655,15 @@ Large multi-faction battle with multiple possible outcomes before you get to the
 	- Random Robot
 	- Narion_Sumati_Predator01
 	- Marduk_MardukIV_Predator03
+
+## Spooky Cave
+
+- Spawn Conditions:
+	- Block Type: OverlayHillsRoundedSmall05
+- Keywords: None
+- Type: Zone In Cave
+- Found In: Not Found Yet
+- Description:
+	- One large cavern with a lot of fog and gas jets. 
+	- Can handle 2 groups
+- Spawns: None
