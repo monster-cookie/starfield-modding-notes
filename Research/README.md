@@ -1,6 +1,8 @@
+# Mod Research
+
 This site is a collection of multiple peoples work and dedication and is meant to help new and aspiring mod authors develop new mods and content for Starfield.
 
-# Tools
+## Tools
 
 - xEdit 4.1.5b
     - This is the tool that even lets us mod right now. Thank you so much Elminster and the xEdit Team for your hard work and dedication. 
@@ -15,17 +17,16 @@ This site is a collection of multiple peoples work and dedication and is meant t
     - A collection of tools for accessing Starfield data
     - Only available from GitHub repo by FO76utils [FO76Utils CE2 Utilities](https://github.com/fo76utils/ce2utils)
 
-# Table of Contents
-1. [[NPCs - Companions]]
-2. [[Creature System (CCT)]]
-3. [[CTD Causes]]
-4. [[Message Records]]
-5. [[NPCs]]
-6. [[NPCs - Companions]]
-7. [[NPCs - Crew]]
-8. [[Pack-ins]]
-9. [[Perks]]
-10. [[Planet Generation (PCM)]]
-11. [[Quests]]
-12. [[Quests - Scenes]]
-13. [[Quests - Triggers]]
+## Table of Contents
+- [Creature System (CCT)](CreatureSystem.md)
+- [CTD Causes](CTDCauses.md)
+- [Message Records](MessageRecords.md)
+- [NPCs](NPCs.md)
+- [NPCs - Companions](NPCs-CompanionsAndCrew.md)
+- [NPCs - Vendors](NPCs-Vendors.md)
+- [Pack-ins](Pack-ins.md)
+- [Perks](Perks.md)
+- [Planet Generation (PCM)](PlanetGeneration.md)
+- [Quests](Quests.md)
+- [Quests - Scenes](Quests-Scenes.md)
+- [Quests - Triggers](Quests-Triggers.md)
