@@ -57,6 +57,7 @@ Crimson Fleet Outpost Cave, will generate a small crimson fleet force and themed
   - Eridani - Eridani II - Rocky Desert
   - Eridani - Eridani II - Outpost
   - Eridani - Eridani III - Frozen Dunes
+  - Kang - Kang VIII-c - Plateau
 - Description: 
   - Small cave with pillar in middle
   - Can only handle 1 group
@@ -79,6 +80,7 @@ Royal terrormorphs abuse cave, spawns a group of terrormorphs and heatleaches to
   - Archimedes - Archimedes V-a - Savanna
   - Verne - Verne II - Mountains
   - Eridani - Eridani IV - Coniferous Forest
+  - Kang - Kang VIII-c - Hills
 - Description:
   - Main room with 2 offshoot rooms
 - Spawns
@@ -100,6 +102,7 @@ Random Human Outpost Cave, will generate a medium sized human force and themed b
   - Verne - Verne II - Mountains
   - Celebrai - Celebrai II - Mountains
   - Eridani - Eridani III - Sandy Desert
+  - Kang - Kang VIII-c - Hills
 - Description:
   - Weird circular cavern
   - FYI it spawned creatures like the RE Overlay/Lair trigger worked for once
@@ -137,6 +140,7 @@ __NOT HANDLED YET__
 - Type: Zone In Cave
 - Found In:
   - Kang - Kang III - Rocky Desert
+  - Kang - Kang VIII-c - Frozen Hills
   - Celebrai - Celebrai II - Hills
   - Eridani - Eridani II - Frozen Hills
 - Description:
@@ -220,6 +224,7 @@ The First Outpost Cave, will generate a small The First force and themed chest.
   - Eridani - Eridani II - Rocky Desert
   - Eridani - Eridani II - Outpost
   - Eridani - Eridani IV-b - Outpost
+  - Kang - Kang VIII-c - Frozen Hills
 - Description:
   - Long cavern 
   - Has rock pile but that is mostly it
@@ -335,6 +340,7 @@ Syndicate Outpost Cave, will generate a small syndicate force and themed chest.
   - Fermi - Fermi III - Outpost
   - Celebrai - Celebrai II - Hills
   - Eridani - Eridani III - Outpost
+  - Kang - Kang VIII-c - Plateau
 - Description: 
   - Large round tunnel easy to get lost in
   - Can handle 3 groups
@@ -426,6 +432,7 @@ Initial terrormorph test cave
   - Archimedes - Archimedes I - Hills
   - Eridani - Eridani III - Outpost
   - Eridani - Eridani IV-b - Outpost
+  - Kang - Kang VIII-c - Frozen Hills
 - Description: 
   - Large crystal lined cave with 2 side rooms and a barge main room
   - Can support 3-4 groups of mobs
@@ -445,6 +452,7 @@ Initial terrormorph test cave
   - Fermi - Fermi III - Outpost
   - Ixyll - Ixyll II - Outpost
   - Eridani - Eridani II - Outpost
+  - Kang - Kang VIII-c - Plateau
 - Description: 
   - Very small cave 
   - Has a side cubby and a lootable rock pile
@@ -485,6 +493,7 @@ Initial terrormorph test cave
   - Ixyll - Ixyll II - Hills
   - Eridani - Eridani II - Rocky Desert
   - Eridani - Eridani II - Hills
+  - Kang - Kang VIII-c - Frozen Hills
 - Description:
   - Long tunnel cave
   - Final semi hidden room has a rock pile
@@ -570,6 +579,7 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
   - Celebrai - Celebrai II - Hills
   - Eridani - Eridani II - Rocky Desert
   - Eridani - Eridani II - Outpost
+  - Kang - Kang VIII-c - Hills
 - Description:
   - Large figure 8 track with a lot of gas vents.
   - Can handle 4-6 groups
@@ -586,6 +596,8 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
   - Archimedes - Archimedes I - Hills
   - Fermi - Fermi III - Deciduous Forest
   - Celebrai - Celebrai II - Hills
+  - Kang - Kang VIII-c - Frozen Hills
+  - Kang - Kang VIII-c - Plateau
 - Description:
   - Huge multilevel cave
   - Has multiple harvest nodes and a rock pile
@@ -606,6 +618,7 @@ Random creature cave from before I fixed the missing keyword that fixed all the 
   - Ixyll - Ixyll II - Hills
   - Eridani - Eridani II - Rocky Desert
   - Eridani - Eridani III - Outpost
+  - Kang - Kang VIII-c - Hills
 - Description: 
   - Long winding circular cavern with lots of gas jet
   - Can handle 5-7 groups
