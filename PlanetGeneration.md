@@ -20,10 +20,25 @@
 The manager tree function as the master control rules. The whole process starts here. 
 
 #### Key Records
+There is a necessary 1 to 1 relationship between Branch Nodes and content nodes and even better the system will allow you with no error to add the same content record to multiple brach creation rules. 
+
 ##### PCM_BlockCreationRequest ==PCMT:0005B625== and PCM_CellLoadRequest ==PCMT:0005B62B==
 Block Creation Requests and Cell Load Requests essentially do the same thing but in different phases. Block creation is at world creation and cell load is when the player enters the cell usually via landing. 
 
-For the most part block creation request create POI around the landing site, but there is also special rules for the area around outposts, settlements, and cities. These special outpost rules have higher priority so they win out in the end. 
+###### PCM_BlockCreation_ClusterNearLocation_Caves
+This is creates cave POI around the ship landing zones and new POI around your current POI up to the POI block limits.
+
+###### PCM_BlockCreation_NearLocation_Outposts_Caves
+This is creates cave POI around an outpost, settlement, and city.
+
+###### PCM_BlockCreation_OEWorlds_Caves
+This creates random cave POI around the block at creation.
+
+###### PCM_BlockCreation_OEWorlds_Natural
+This creates random natural and trait POI around the block at creation this is most of the POI you see when you land and explore. 
+
+###### PCM_BlockCreation_OEWorlds_HumanHabitation
+This create random ruins and human POI around the block at creation. 
 
 ##### PCM_QuestRequest ==PCMT:000F455A==
 This generates custom surface blocks for quests to that the player can encounter and land at them. 
