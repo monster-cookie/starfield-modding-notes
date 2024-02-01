@@ -4,7 +4,9 @@ Pack-ins are an evil system to make a simple deployable object of complex arrang
 
 ## Pack-in Flags
 - Prefab will almost always be on a packing
-- Unknown11 bulldozes ground so the packin can be placed. 
+- Unknown11 bulldozes ground so the packin can be placed.
+  - This also turns everything in the packing to a single static object so it will break triggers/activators/terminal/NPCs/etc.
+  - If you need activator type objects just put another packin in the main packin to serve as a foundation layer and only the foundation layer packing should have unknown11 on it. 
 
 ## Pack-in Cells
 
