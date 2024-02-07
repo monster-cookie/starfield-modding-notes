@@ -2,6 +2,7 @@
 
 ## New planet and system creation
 - Creating a new system or planet requires a new game or at least a new NG+ universe
+  - PCM Cell Load Request rules do not require a new game or NG+ universe you just need to fly to a new area of the current planet or a new planet. 
 
 ### Houdini
 - So Houdini is the procedural terrain generation using Houdini software from [https://www.sidefx.com/products/houdini/](https://www.sidefx.com/products/houdini/ "https://www.sidefx.com/products/houdini/"). 
