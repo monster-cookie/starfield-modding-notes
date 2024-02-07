@@ -45,3 +45,8 @@ This generates custom surface blocks for quests to that the player can encounter
 
 ##### PCM_SpaceshipLandingRequest ==PCMT:00018BB1==
 This handles clearing the area around and creating the landing area for your ship. 
+
+## PCM Pack-In Lair System
+These require a specific ordering of a chain of packing to function and the base uses Unkown11 for bulldoxing so cannot be used with any active items like containers, triggers, lights, etc. 
+
+Proper ordering base with bulldoze properties -> Active layer (Lights, Furniture, Markers, Spawners) -> PCM Target (This is added to the PCM Cell Request Rule)
