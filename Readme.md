@@ -23,6 +23,7 @@ This site is a collection of multiple peoples work and dedication and is meant t
 - Github's [Advanced Formatting, Task Lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)
 
 ## Table of Contents
+- [Starfield Modding Issues](./KnownModdingIssues.md)
 - [Creature System (CCT)](./CreatureSystem.md)
 - [CTD Causes](./CTDCauses.md)
 - [Message Records](./MessageRecords.md)
