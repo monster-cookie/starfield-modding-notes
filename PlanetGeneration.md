@@ -47,7 +47,14 @@ This generates custom surface blocks for quests to that the player can encounter
 ##### PCM_SpaceshipLandingRequest ==PCMT:00018BB1==
 This handles clearing the area around and creating the landing area for your ship. 
 
+## PCM Rule processing
+Rules are process in order (Bottom First) starting with PCM_BlockCreationRequest [PCMT:0005B625] and PCM_CellLoadRequest [PCMT:0005B62B] the first child of a nods that's conditions evaluate true win for the sub block (PCM Block requests) or a cell for (PCM cell request). PCM cell requests can add more then 1 result in a cell and usually have distance checks to them too. 
+
+### New Game/NG+ Universe
+- Changes to PCM Block Creation rules require a new universe (either new game or new game plus) in order to be applied.
+- Changes to PCM Cell Request rules only need travel to a new location on the current planet or to a new planet. 
+
 ## PCM Pack-In Lair System
-These require a specific ordering of a chain of packing to function and the base uses Unkown11 for bulldoxing so cannot be used with any active items like containers, triggers, lights, etc. 
+These require a specific ordering of a chain of packing to function and the base uses Unkown11 for bulldozing so cannot be used with any active items like containers, triggers, lights, etc. 
 
 Proper ordering base with bulldoze properties -> Active layer (Lights, Furniture, Markers, Spawners) -> PCM Target (This is added to the PCM Cell Request Rule)
