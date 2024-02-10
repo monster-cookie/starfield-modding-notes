@@ -50,6 +50,8 @@ This handles clearing the area around and creating the landing area for your shi
 ## PCM Rule processing
 Rules are process in order (Bottom First) starting with PCM_BlockCreationRequest [PCMT:0005B625] and PCM_CellLoadRequest [PCMT:0005B62B] the first child of a nods that's conditions evaluate true win for the sub block (PCM Block requests) or a cell for (PCM cell request). PCM cell requests can add more then 1 result in a cell and usually have distance checks to them too. 
 
+When a rule branch is traversed a a leaf must be return or bad things happen. The engine seems to just grabs a random leaf if one isn't returned. This is why the branch rules and leafs generally have near identical conditions. This prevents the branch from being traversed when there is a possibility of no leaf being available.
+
 ### New Game/NG+ Universe
 - Changes to PCM Block Creation rules require a new universe (either new game or new game plus) in order to be applied.
 - Changes to PCM Cell Request rules only need travel to a new location on the current planet or to a new planet. 
