@@ -8,3 +8,9 @@ Now there appears to be issues that start around 160 ESM and becoming impossible
 ## BA Archives
 
 Also recently there is finding with measured proof that loose files cause significant performance issues and crashes. So it recommended if an author hasn't to merge the loose files for a mod into a BA2 or BA2v3(for pure textures only) archive. Non texture files should go in a archive named "<modnam> - Main.ba2" and texture can go in main or a file named "<modnam> - Textures.ba2" using the new version 3 BA2 format.
+
+## Missing Texures and other collateral damage issues
+
+Missing textures mostly, but as we found out last night overriding to reverse settings can also casue this, the papyrus system library (Game, Utility, MAth) native functions will start returning None. The most obvious side effect is Game.GetForm() and Game.GetFormByFile() which casue wide spread damage as expected forms are no longer there. 
+
+Another common side effect is in game cities, poi, npcs, will go invisible like their markers will still be there but the object no longer renders. 
