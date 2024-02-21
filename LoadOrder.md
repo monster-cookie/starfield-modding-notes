@@ -1,6 +1,10 @@
 # Load Order Finding
 
-Starfield seems to have a few areas that require strict load order positioning.
+Starfield seems to have a few areas that require strict load order positioning. 
+
+## Patching 
+
+You should also be confirming conflicts and patching them yourself in xEdit as this is the available best solution. If they are stable and the mod authors allow post those patches for other to use. 
 
 ## Findings
 
@@ -8,7 +12,7 @@ The following items are high susceptible to breakage when their load order is ch
 
 ### Procedural Generation (PCM for example)
 
-Procedural Generation rules when linked to mods cause cause planets to render incorrectly or even fail to load if rules with form IDs are changed to new IDs. Other then the Cell Reset rules PCM needs a new universe for change to safely apply. 
+Procedural Generation rules when linked to mods cause planets to render incorrectly or even fail to load if rules with form IDs are changed to new IDs. Other then the Cell Reset rules PCM needs a new universe for change to safely apply. 
 
 ### Biomes
 
@@ -28,21 +32,23 @@ Loose files (Mainly textures) cause performance problems and scripting lag as th
 
 ## Suggested Load Order Groups
 
-Groups with :lock: should not be moved under any circumstance and groups with :unlock: generally can be moved
+These groupings are purely logical unless you are using MO2 or LOOT starts supporting Starfield again. But in any organizer or manually you can local the load order positions so that ESM's mod index remains fixed. 
 
-01. BGS Core :lock:
-02. Core Fixes :lock:
-03. Shared Libraries :lock:
-04. Proc-Gen Overhauls (Biomes, Planets, Systems, and Stars) and Mods :lock:
-05. AI Overhauls and Mods that change all NPCs :lock:
-06. Large Overhauls
-07. Early Loading Fixes
-08. Early Loading Mods
-09. Default
+Groups with :lock: should not be moved under any circumstance
+
+1.  BGS Core :lock:
+2.  Core Fixes :lock:
+3.  Shared Libraries :lock:
+4.  Proc-Gen Overhauls (Biomes, Planets, Systems, and Stars) and Mods :lock:
+5.  AI Overhauls and Mods that change all NPCs :lock:
+6.  Large Overhauls
+7.  Early Loading Fixes
+8.  Early Loading Mods
+9.  Default
 10. Late Loading Mods
 11. Late Loading/Highly Specific Fixes
 
-## Example Using Venworks and Royal Stuff
+### Example Using Venworks
 
 THIS IS AN EXAMPLE: Please follow the mod's and its author's specific instructions if they have them. 
 
