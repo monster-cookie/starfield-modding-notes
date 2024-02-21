@@ -1,6 +1,6 @@
 # Load Order Finding
 
-Starfield seems to have a few areas that require strict load order positioning. 
+Starfield seems to have a few areas that require strict load order positioning. Also as a reminder BGS states and still does not recommend changing the load order or uninstalling mods mid game. 
 
 ## Patching 
 
@@ -12,11 +12,11 @@ The following items are high susceptible to breakage when their load order is ch
 
 ### Procedural Generation (PCM for example)
 
-Procedural Generation rules when linked to mods cause planets to render incorrectly or even fail to load if rules with form IDs are changed to new IDs. Other then the Cell Reset rules PCM needs a new universe for change to safely apply. 
+Procedural Generation rules when linked to mods cause planets to render incorrectly or even fail to load if rules with form IDs are changed to new IDs. Other then the Cell Reset rules PCM or as stated otherwise by the mod authors these changes need a new universe for changes to apply. 
 
 ### Biomes
 
-Related to PCM when the biome links are changed it flora/fauna weird mixes of old and new and even terrain problems can result. Changes to biomes should have a new universe. 
+Related to PCM when the biome links are changed it flora/fauna weird mixes of old and new and even terrain problems can result. Again unless otherwise stated by the mod author, these changes always need a new universe.
 
 ### Leveled NPCs or NPCs (THis is still a little grey there is a problem here but its not locked down exactly)
 
