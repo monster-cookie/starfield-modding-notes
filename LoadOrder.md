@@ -20,7 +20,7 @@ Related to PCM when the biome links are changed it flora/fauna weird mixes of ol
 
 ### Leveled NPCs or NPCs (THis is still a little grey there is a problem here but its not locked down exactly)
 
-Changes to NPCs and NPC Leveled lists can cause CTDs or mass conversions to level 1 humans (creatures do it to but can't remember their default record)
+Changes to NPCs and NPC Leveled lists using none vanilla records including copied vanilla records, can cause CTDs or mass conversions to level 1 humans (creatures do it to but can't remember their default record)
 
 ## ESM Limitations
 
