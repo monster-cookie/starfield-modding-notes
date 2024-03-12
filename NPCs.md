@@ -4,8 +4,6 @@ A lot of persistent NPC changes require NG+ reset, but you can sometimes spoof i
 
 ## Template Actors
 
-==TODO - Finish this table==
-
 | Template Actor  | Affects                                                                       |
 | --------------- | ----------------------------------------------------------------------------- |
 | Trait           | Appearance Data (From CK1: Race, Sex, VoiceType, & Death Items)               |
