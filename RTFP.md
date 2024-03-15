@@ -15,6 +15,7 @@ Real Time Form Patcher (RTFP) is a SFSE mod that will allow dynamic injection an
 
 ### Global Features
 
+
 ### Minimum Version
 
 If you set the first line of the file minver=<version> you can specify the minimum version of RTFP needed to process the file. If the user tries to load the RTFP file on an unsupported version of RTFP at run time they will get a Message Box popup. 
@@ -34,6 +35,13 @@ You can control the load order of your file versus other files but specifying a 
 ```
 minver=112|priority=-10
 ```
+
+### Editor IDs
+You can use editor IDs in most places that a form ID can be used but you need the [Power Of Three SFSE](https://www.nexusmods.com/starfield/mods/3621) mod. Without it you can only use them in specific places where the engine doesn't discard editor IDs as comments. 
+
+Known Safe Places without the additional mod
+* Game Settings
+* Globals
 
 ### Debug Mode 
 
