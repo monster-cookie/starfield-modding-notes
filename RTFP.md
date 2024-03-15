@@ -1,20 +1,46 @@
 # Real Time Form Patcher (RTFP)
 
-Real Time Form Patcher (RTFP) is a SFSE mod that will allow dynamic injection and modification of engine records during the game load phase. 
+[Real Time Form Patcher (RTFP)](https://www.nexusmods.com/starfield/mods/8324) is a SFSE mod that will allow dynamic injection and modification of engine records during the game load phase. 
 
 ## Support Matrix
-| Starfield Record  | Min Version | Keywords | Conditions |
-|-------------------|-------------|----------|------------|
-| Global Variables  | 1.0         | N/A      | N/A        |
-| Game Settings     | 1.0         | N/A      | N/A        |
-| Conditionals      | 1.18        | N/A      | N/A        |
-| MiscObject        |             | Yes      | N/A        |
-| Leveled Base Form |             | N/A      | Yes        |
-| Leveled Item      |             | N/A      | Yes        |
-| Leveled NPC       |             | N/A      | Yes        |
+| Starfield Record                             | Min Version | Keywords | Conditions | Full Name |
+|----------------------------------------------|-------------|----------|------------|-----------|
+| [Global Variable](./RTFP.md#global-variable) | 1.00        | N/A      | N/A        | N/A       |
+| [Game Settings](./RTFP.md#game-settings)     | 1.00        | N/A      | N/A        | N/A       |
+| [Conditions](./RTFP.md#conditions)           | 1.18        | N/A      | N/A        | N/A       |
+| [MiscObject](./RTFP.md#misc)                 | 1.00        | Yes      | N/A        | Yes       |
+| Leveled Base Form                            | 1.00        | N/A      | Yes        | N/A       |
+| Leveled Item                                 | 1.00        | N/A      | Yes        | N/A       |
+| Leveled NPC                                  | 1.00        | N/A      | Yes        | N/A       |
 
-### Global Features
+## Sections
 
+* [Configuration](./RTFP.md#configuration)
+* [Global Features](./RTFP.md#global-features)
+* [Conditions](./RTFP.md#conditions)
+* [Keywords](./RTFP.md#keywords)
+* [Full Name](./RTFP.md#full-name)
+* [Game Settings](./RTFP.md#game-settings)
+* [Global Variable](./RTFP.md#global-variable)
+* [MiscObject](./RTFP.md#misc)
+
+## Configuration
+
+### INI File
+
+The settings file for RTFP lives in <gamedir>\\Data\\SFSE\\Plugins and must be named RealTimeFormPatcher.ini 
+
+Settings in it currently (1=Enable/0=Disable): 
+* bShowLoadedMessage - Show a console message when RTFP has fully loaded all files
+* bShowWarningsAsMessageBox - Use a warning box instead of notification for warning messages
+* bDebugMode - Turn on debug mode and process the \[Debug\] section
+
+### RTFP Configuration Files
+
+The configuration files for RTFP live in <gamedir>\\Data\\SFSE\\Plugins\\RealTimeFormPatcher and must be globally uniquely named.
+
+
+## Global Features
 
 ### Minimum Version
 
@@ -66,7 +92,6 @@ SimpleGroup_Hair_Choppy|
 ### Comments
 
 Any line that starts with a pound sign (#) is treated as a comment and ignored by the parser. 
-
 
 ## Conditions
 
@@ -144,3 +169,69 @@ Keywords can be added to any record that supports keywords.
 # Tool_DuctTape01 "Vacuum Tape" [MISC:002AC95F]: Small Size - Tier A (Adhesive) - Tier B (Fiber) - Tier C (Alkanes) - Tier D (None)
 Starfield.esm~002AC95F|kwd_add(VenworksJunkRecycler.esm~0000080E)|kwd_add(VenworksJunkRecycler.esm~00000803)|kwd_add(VenworksJunkRecycler.esm~00000811)|kwd_add(VenworksJunkRecycler.esm~00000816)
 ```
+
+## Full Name
+
+For record types that support naming you can set with the name() function
+
+## Example
+```
+[Misc]
+# Change vacuum tape to duct tape 
+Starfield.esm~002AC95F|name("Duct Tape")
+```
+
+## Game Settings 
+
+### Template
+```
+<GameSetting>:<Value>
+```
+* Game Setting must match the name of the Game Setting from Starfield.exe, Starfield.esm, or the Engine
+* Value can be a string (wrapped in quotes), Integer, or a Float.
+
+### Example
+```
+[GameSettings]
+fHandScannerBaseRange|100.00
+iAINumberActorsComplexScene,iNumberActorsInCombatPlayer|60
+sAffinityEventHates|"disagrees."
+```
+
+## Global Variable
+
+### Template
+```
+<ESM>~<FormID>:<Function>
+<EditorID>:<Function>
+```
+* <ESM>~<FormID> or <EditorID> can be used one or the other not both. 
+* Valid Functions
+  * val(<value>) - Set the referenced global to <value> where value is a Float or Integer
+
+### Example
+```
+[Global]
+COM_EventReaction_Dislikes|val(0)
+OE_ChanceUniqueGlobal|val(40)
+Starfield.esm~0030BFFE|val(60)
+```
+
+## Misc
+
+### Template
+```
+<ESM>~<FormID>:<Function>|...|<FunctionN>
+```
+* <ESM>~<FormID> or <EditorID> can be used one or the other not both. 
+* Valid Functions
+  * model(<path>) - Set the path to the model to <path> where <path> is a quoted string
+  * val(<value>) - Set the value of the item to <value> where <value> is a float
+
+### Example
+```
+[Misc]
+# Tool_DuctTape01 "Vacuum Tape" [MISC:002AC95F]: Small Size - Tier A (Adhesive) - Tier B (Fiber) - Tier C (Alkanes) - Tier D (None)
+Starfield.esm~002AC95F|kwd_add(VenworksJunkRecycler.esm~0000080E)|kwd_add(VenworksJunkRecycler.esm~00000803)|kwd_add(VenworksJunkRecycler.esm~00000811)|kwd_add(VenworksJunkRecycler.esm~00000816)
+```
+
