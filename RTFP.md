@@ -15,6 +15,7 @@
 
 ## Sections
 
+* [Selector](./RTFP.md#selectors)
 * [Configuration](./RTFP.md#configuration)
 * [Global Features](./RTFP.md#global-features)
 * [Conditions](./RTFP.md#conditions)
@@ -29,7 +30,7 @@
 
 ### INI File
 
-The settings file for RTFP lives in <gamedir>\\Data\\SFSE\\Plugins and must be named RealTimeFormPatcher.ini 
+The settings file for RTFP lives in \<gamedir\>\\Data\\SFSE\\Plugins and must be named RealTimeFormPatcher.ini 
 
 Settings in it currently (1=Enable/0=Disable): 
 * bShowLoadedMessage - Show a console message when RTFP has fully loaded all files
@@ -38,14 +39,14 @@ Settings in it currently (1=Enable/0=Disable):
 
 ### RTFP Configuration Files
 
-The configuration files for RTFP live in <gamedir>\\Data\\SFSE\\Plugins\\RealTimeFormPatcher and must be globally uniquely named.
+The configuration files for RTFP live in \<gamedir\>\\Data\\SFSE\\Plugins\\RealTimeFormPatcher and must be globally uniquely named.
 
 
 ## Global Features
 
 ### Minimum Version
 
-If you set the first line of the file minver=<version> you can specify the minimum version of RTFP needed to process the file. If the user tries to load the RTFP file on an unsupported version of RTFP at run time they will get a Message Box popup. 
+If you set the first line of the file minver=\<version\> you can specify the minimum version of RTFP needed to process the file. If the user tries to load the RTFP file on an unsupported version of RTFP at run time they will get a Message Box popup. 
 
 Versions are entered as a non-decimal value for example 1.00 is entered at 100 and 1.12 as 112. 
 
@@ -62,13 +63,6 @@ You can control the load order of your file versus other files but specifying a 
 ```
 minver=112|priority=-10
 ```
-
-### Editor IDs
-You can use editor IDs in most places that a form ID can be used but you need the [Power Of Three SFSE](https://www.nexusmods.com/starfield/mods/3621) mod. Without it you can only use them in specific places where the engine doesn't discard editor IDs as comments. 
-
-Known Safe Places without the additional mod
-* Game Settings
-* Globals
 
 ### Debug Mode 
 
@@ -93,6 +87,25 @@ SimpleGroup_Hair_Choppy|
 ### Comments
 
 Any line that starts with a pound sign (#) is treated as a comment and ignored by the parser. 
+
+### Selectors
+
+You can either use the Editor ID or the ESM filename with a FormID to reference objects. 
+
+#### Examples 
+```
+[Global]
+COM_EventReaction_Dislikes|val(0)
+OE_ChanceUniqueGlobal|val(40)
+Starfield.esm~0030BFFE|val(60)
+```
+
+#### Editor IDs
+You can use editor IDs in most places that a form ID can be used but you need the [Power Of Three SFSE](https://www.nexusmods.com/starfield/mods/3621) mod. Without it you can only use them in specific places where the engine doesn't discard editor IDs as comments. 
+
+Known Safe Places without the additional mod
+* Game Settings
+* Globals
 
 ## Conditions
 
@@ -203,12 +216,11 @@ sAffinityEventHates|"disagrees."
 
 ### Template
 ```
-<ESM>~<FormID>:<Function>
-<EditorID>:<Function>
+<Selector>:<Function>
 ```
-* \<ESM\>~\<FormID\> or <EditorID> - The selector to find the item to edit (Either \<ESM\>~\<FormID\> or <EditorID> can be used but not both). 
+* Selector - The selector to find the item to edit
 * Valid Functions
-  * val(<value>) - Set the referenced global to <value> where value is a Float or Integer
+  * val(\<value\>) - Set the referenced global to value where value is a Float or Integer
 
 ### Example
 ```
@@ -222,12 +234,12 @@ Starfield.esm~0030BFFE|val(60)
 
 ### Template
 ```
-<ESM>~<FormID>:<Function>|...|<FunctionN>
+<Selector>:<Function>|...|<FunctionN>
 ```
-* \<ESM\>~\<FormID\> - The selector to find the item to edit
+* Selector - The selector to find the item to edit
 * Valid Functions
-  * model(<path>) - Set the path to the model to <path> where <path> is a quoted string
-  * val(<value>) - Set the value of the item to <value> where <value> is a float
+  * model(\<path\>) - Set the path to the model to path where path is a quoted string
+  * val(\<value\>) - Set the value of the item to value where value is a float
 
 ### Example
 ```
@@ -242,12 +254,12 @@ Block Creation rules need to exist at universe creation time in my experiments R
 
 ### Template
 ```
-<ESM>~<FormID>:<Function>|...|<FunctionN>
+<Selector>:<Function>|...|<FunctionN>
 ```
-* \<ESM\>~\<FormID\> - the selector to find the item to edit
+* Selector - the selector to find the item to edit
 * Valid Functions
-  * node_add(\<ESM\>~\<FormID\>) - Add a node using the specified selector. 
-  * node_rmv(\<ESM\>~\<FormID\>) - remove a node using the specified selector. 
+  * node_add(\<Selector\>) - Add a node using the specified selector. 
+  * node_rmv(\<Selector\>) - remove a node using the specified selector. 
   * node_rpl(???) - Replace a node with another node. 
   * mode_clr() - Clears all nodes
 
