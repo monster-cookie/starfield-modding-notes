@@ -4,6 +4,7 @@ Real Time Form Patcher (RTFP) is a SFSE mod that will allow dynamic injection an
 
 ## Support Matrix
 | Starfield Record  | Min Version | Keywords | Conditions |
+|-------------------|-------------|----------|------------|
 | Global Variables  | 1.0         | N/A      | N/A        |
 | Game Settings     | 1.0         | N/A      | N/A        |
 | Conditionals      | 1.18        | N/A      | N/A        |
