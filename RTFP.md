@@ -22,7 +22,8 @@
 * [Full Name](./RTFP.md#full-name)
 * [Game Settings](./RTFP.md#game-settings)
 * [Global Variable](./RTFP.md#global-variable)
-* [MiscObject](./RTFP.md#misc)
+* [MiscObject](./RTFP.md#misc-item-misc)
+* [Planet Content Manager Branch Node (PCBN)](./RTFP.md#planet-content-manager-branch-node-pcbn)
 
 ## Configuration
 
@@ -205,7 +206,7 @@ sAffinityEventHates|"disagrees."
 <ESM>~<FormID>:<Function>
 <EditorID>:<Function>
 ```
-* <ESM>~<FormID> or <EditorID> can be used one or the other not both. 
+* \<ESM\>~\<FormID\> or <EditorID> - The selector to find the item to edit (Either \<ESM\>~\<FormID\> or <EditorID> can be used but not both). 
 * Valid Functions
   * val(<value>) - Set the referenced global to <value> where value is a Float or Integer
 
@@ -217,13 +218,13 @@ OE_ChanceUniqueGlobal|val(40)
 Starfield.esm~0030BFFE|val(60)
 ```
 
-## Misc
+## Misc Item (Misc)
 
 ### Template
 ```
 <ESM>~<FormID>:<Function>|...|<FunctionN>
 ```
-* <ESM>~<FormID> or <EditorID> can be used one or the other not both. 
+* \<ESM\>~\<FormID\> - The selector to find the item to edit
 * Valid Functions
   * model(<path>) - Set the path to the model to <path> where <path> is a quoted string
   * val(<value>) - Set the value of the item to <value> where <value> is a float
@@ -235,3 +236,23 @@ Starfield.esm~0030BFFE|val(60)
 Starfield.esm~002AC95F|kwd_add(VenworksJunkRecycler.esm~0000080E)|kwd_add(VenworksJunkRecycler.esm~00000803)|kwd_add(VenworksJunkRecycler.esm~00000811)|kwd_add(VenworksJunkRecycler.esm~00000816)
 ```
 
+## Planet Content Manager Branch Node (PCBN)
+
+Block Creation rules need to exist at universe creation time in my experiments RTFP hooks in too late for them, but Cell Reset rules are processed at landing/fast travel so these can safely be modified with RTFP. Removing nodes requires a new game or a new NG+ universe and will cause a CTD if loading a planet with a removed node. 
+
+### Template
+```
+<ESM>~<FormID>:<Function>|...|<FunctionN>
+```
+* \<ESM\>~\<FormID\> - the selector to find the item to edit
+* Valid Functions
+  * node_add(\<ESM\>~\<FormID\>) - Add a node using the specified selector. 
+  * node_rmv(\<ESM\>~\<FormID\>) - remove a node using the specified selector. 
+  * node_rpl(???) - Replace a node with another node. 
+  * mode_clr() - Clears all nodes
+
+### Example
+```
+[PCBN]
+Starfield.esm~2C4EA|node_add(Starfield.esm~5FF75)
+```
