@@ -1,6 +1,6 @@
 # Perks
 
-## Perk Condition Tab Count
+## Perk Condition Tab Count and maybe PRKC - Run On
 This is a horribly named field with a major purpose
 
 Valid Settings
