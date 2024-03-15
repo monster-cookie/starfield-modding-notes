@@ -69,9 +69,16 @@ minver=112|priority=-10
 Debug diagnostics were added in version 1.09 and lets you see in the log file the record processing and a dump of the final objects created. Debug mode causes a very noticeable processing lag so you should definitely disable it when its not needed and before releasing the RTFP file to anyone. This also requires bDebugMode set to 1 in the RealTimeFormPatcher.ini. 
 
 Currently supported forms that can be dumped in debug 
+* Activator
+* AVM Data
+* Condition Form
+* Container
 * Form Lists
 * Leveled Lists
-* AVM Data
+* Message
+* NPC
+* OMOD
+* Weapon
 
 #### Example 
 ```
