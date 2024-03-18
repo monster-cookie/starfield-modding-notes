@@ -18,6 +18,8 @@
 * [Selector](./RTFP.md#selectors)
 * [Configuration](./RTFP.md#configuration)
 * [Global Features](./RTFP.md#global-features)
+* [Filters](https://www.nexusmods.com/starfield/articles/463)
+* [Custom Filters](https://www.nexusmods.com/starfield/articles/464)
 * [Conditions](./RTFP.md#conditions)
 * [Keywords](./RTFP.md#keywords)
 * [Full Name](./RTFP.md#full-name)
