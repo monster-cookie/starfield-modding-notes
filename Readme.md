@@ -4,13 +4,15 @@ This site is a collection of multiple peoples work and dedication and is meant t
 - VS Code
   - Open Source editor from Microsoft
   - [Get from Microsoft](https://code.visualstudio.com/download)
-- xEdit 4.1.5c 
+- xEdit 4.1.5d 
   - This is the tool that even lets us mod right now. Thank you so much Elminster and the xEdit Team for your hard work and dedication. 
   - Currently cloning/overriding records with unknown reflection data cannot be copied
     - This is because we have no safe way to ensure there are not form IDs and function data that can cause in correct references and save corrupts/CTDs. 
-    - There is an early version of xEdit that allows editing and transfer of REFL containing records. If you use it you MUST reverse the binary to strings to try and understand what the class/record is doing and more importantly if its is referencing other records via handles or form IDs.
+    - There is an early version of xEdit that allows editing and transfer of REFL containing records. If you use it you MUST reverse the binary to strings to try and understand what the class/record is doing and more importantly if its is referencing other records via handles or form IDs. As of March 2024 this version not longer creates valid ESMs the current game and xedit's can read. 
   - You must be on 4.1.5b or later earlier versions missed some header record that break things.
-  - Only available on their discord which is locked down currently - [xEdit GitHub](https://github.com/TES5Edit/TES5Edit)
+  - Only use the version from their discord
+    - [xEdit GitHub](https://github.com/TES5Edit/TES5Edit)
+    - [xEdit Discord](https://discord.com/channels/471930020454072348/518048160526893057)
 - nifskope
   - This allows for texture swaps and modifications of in game models and assets
   - Only available from a fork by FO76utils [FO76Utils Nifskope](https://github.com/fo76utils/nifskope)
