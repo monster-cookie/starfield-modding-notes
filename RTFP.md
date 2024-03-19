@@ -66,6 +66,16 @@ You can control the load order of your file versus other files but specifying a 
 minver=112|priority=-10
 ```
 
+### Only Run If Plugin Loaded
+
+You can add check to the first line so that the file only processed if the required plugin is loaded. You can optionally set it to notify the user the required plugin is missing.
+
+#### Example 
+```
+minver=117|onlyifpluginloaded=MyTestPlugin.esm()
+minver=117|onlyifpluginloaded=MyTestPlugin.esm(notify)
+```
+
 ### Debug Mode 
 
 Debug diagnostics were added in version 1.09 and lets you see in the log file the record processing and a dump of the final objects created. Debug mode causes a very noticeable processing lag so you should definitely disable it when its not needed and before releasing the RTFP file to anyone. This also requires bDebugMode set to 1 in the RealTimeFormPatcher.ini. 
