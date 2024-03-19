@@ -154,7 +154,7 @@ ConditionName:RunOn:ComparisonOperator:Value:param1:param2:flags
   * Player Ship
 * Valid Values for ComparisonOperator
   * Equal (=)
-  * Not equal (<> or !=)
+  * Not equal (!=)
   * Greater Than (>)
   * Greater Than or Equal To (>=)
   * Less Than (<)
