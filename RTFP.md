@@ -109,7 +109,7 @@ Any line that starts with a pound sign (#) is treated as a comment and ignored b
 
 ### Selectors
 
-You can either use the Editor ID or the ESM filename with a FormID to reference objects. 
+You can either use the Editor ID or the ESM filename with a FormID to reference objects. If chaining multiple selectors like filters you need to prefix the line with a plus (+).
 
 #### Examples 
 ```
@@ -117,6 +117,7 @@ You can either use the Editor ID or the ESM filename with a FormID to reference 
 COM_EventReaction_Dislikes|val(0)
 OE_ChanceUniqueGlobal|val(40)
 Starfield.esm~0030BFFE|val(60)
++Starfield.esm~0030BFFE,Starfield.esm~0030BFFE|val(60)
 ```
 
 #### Editor IDs
