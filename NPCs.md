@@ -15,7 +15,7 @@ A lot of persistent NPC changes require NG+ reset, but you can sometimes spoof i
 | Model/Animation | NPC Model and Animations                                                      |
 | Base Data       | ??? (From CK1: Name, Long Name, Short Name, and Properties Field)             | 
 | Inventory       | The Containers Items Field[^1]                                                |
-| Script          | Attached scripts the VMAD field                                               |
+| Script          | Attached scripts the VMAD field[^1]                                           |
 | Def Pack List   | default package list                                                          |
 | Attack Data     | ???, Combat Style maybe                                                       |
 | Keyword         | The keywords field                                                            |
@@ -25,4 +25,4 @@ A lot of persistent NPC changes require NG+ reset, but you can sometimes spoof i
 - Template actors fully override anything on the NPC records. For example Cora's initial dark hair and wrong hair cut bug were caused by the linked trait template actor's setting.
 - Fields set in multiple template actors don't inherit only the specific template actor used for a field wins. 
 
-[^1]: Currently inventory is not being pulled from template or base actors. 
+[^1]: Currently these are not being pulled from template, base actors, or lchar leveled NPC lists. 
