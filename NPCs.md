@@ -1,5 +1,11 @@
 # NPCs
 
+## Subsections
+- [Companions and Crew](./NPCs-CompanionsAndCrew.md)
+- [Vendors](./NPCs-Vendors.md)
+
+## Overview
+
 A lot of persistent NPC changes require NG+ reset, but you can sometimes spoof it with Disable/Enable and ResetInventory in the console. Companion resets are a lot more work. Also if the NPC is bound to a handler quests (think SQ_Crew, etc) you will have to reset the quest or use what ever reset path the quest script provides. Again see Companions for an example.
 
 ## Template Actors
