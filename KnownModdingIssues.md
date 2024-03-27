@@ -1,5 +1,8 @@
 # Starfield Modding Issues
 
+## Subsections
+- [CTD Causes](./CTDCauses.md)
+
 ## Mod Indexes
 Each ESP/ESM in Starfield requires a mod index in order to resolve and find its resources. This is an unsigned short integer so the absolute maximum number of them is 255, really 254. Then you lose 1 to ESL support, 1 for the main game ESM, and 1 to the main game EXE so we lose another 3 dropping us to 251 available indexes. BGS reserve another 8 for DLC dropping use down to around 242 for use in mods. 
 
