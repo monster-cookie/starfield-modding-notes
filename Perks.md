@@ -1,5 +1,8 @@
 # Perks
 
+# Effect execution order
+This is controlled by the entry priority. The higher the number the higher the priority.
+
 ## Perk Condition Tab Count and maybe PRKC - Run On
 This is a horribly named field with a major purpose
 
