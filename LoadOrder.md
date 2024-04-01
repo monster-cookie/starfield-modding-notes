@@ -62,10 +62,11 @@ ESMs and groups with :lock: should not be moved under any circumstance
 02. Core Fixes
   - StarfieldCommunityPatch.esm :lock:
 03. Shared Libraries
+  - StarfieldCore.esm :lock:
   - VenpiCore.esm :lock:
 04. Proc-Gen Overhauls (Biomes, Planets, Systems, and Stars) and Mods
-  - VenpiFactionOverhaul.esm :lock:
-  - VenpiCaveOverhaul.esm :lock:
+  - VenworksFactionOverhaul.esm :lock:
+  - VenworksEncountersOverhaul.esm :lock:
   - GrindTerraformed.esm :lock:
 06. AI Overhauls and Mods that change all NPCs
   - CoraCanRead.esm :lock:
@@ -81,7 +82,9 @@ ESMs and groups with :lock: should not be moved under any circumstance
   - ResizeTheWorld.esm
   - GalacticPetShop.esm
   - GalacticJunkRecycler.esm
+  - VenworksJunkRecycler.esm
   - GalacticPawnShop.esm
 10. Late Loading Mods
+  - VenpiDebugTools.esm
 11. Late Loading/Highly Specific Fixes
-  - Patches for Venworks Faction Overhaul
+  - WalterFactionPatch.esm :lock:
