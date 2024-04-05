@@ -32,6 +32,7 @@ This site is a collection of multiple peoples work and dedication and is meant t
 - [Cell Reset](./CellReset.md)
 - [Creature System (CCT)](./CreatureSystem.md)
 - [CTD Causes](./CTDCauses.md)
+- [Factions](./Factions.md)
 - [Ingestibles](./Ingestibles.md)
 - [Leveled Lists](./LeveledLists.md)
 - [Map Markers](./MapMarkers.md)
