@@ -3,6 +3,7 @@
 ## Subsections
 - [Companions and Crew](./NPCs-CompanionsAndCrew.md)
 - [Vendors](./NPCs-Vendors.md)
+- [Voice Setup](./NPCs-VoiceSetup.md)
 
 ## Overview
 
