@@ -10,11 +10,11 @@ This is the master marker that controls everything. In activator form, this is w
 
 This must have the RETriggerScript bound and configured to it. This script is what fires the REEncounterTypeOverlay Story Manager Script Event.
 
-### REOverlayTriggerExterior (RETriggerExteriorLocRef) [REQUIRED]
+### REOverlayTriggerExterior (RETriggerExteriorLocRef)
 
 Marker for the exterior world space.
 
-### REOverlayTriggerInterior (RETriggerInteriorLocRef) [REQUIRED]
+### REOverlayTriggerInterior (RETriggerInteriorLocRef)
 
 Marker to/for the interior cell.
 

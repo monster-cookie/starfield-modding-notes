@@ -148,3 +148,11 @@ WARNING: Contains some space stations
 
 - Pipeline Terminus (OEZW009)
 - Construction Site (POIBB010)
+
+## Venworks Core
+
+### LocTypeOE_ThemeManmadeClutterSmallKeyword
+
+### LocTypeOE_ThemeManmadeClutterMediumKeyword
+
+### LocTypeOE_ThemeManmadeClutterLargeKeyword
