@@ -46,9 +46,9 @@ These are marker for NPCs to travel too, guard, or for use in patrol routes.
 
 ## NPC Markers
 
-### RELeaderMarkerLocRef or RETriggerAreaLeaderLocRef
+### RETriggerAreaLeaderLocRef
 
-This marker denotes where the group's leader would spawn. These aren't well used BGS seems to use the Scene and Travel markers instead.
+This marker denotes where the group's leader would spawn.
 
 ### REScenePatrolStartLocRef and REScenePatrolEndLocRef
 
