@@ -1,21 +1,26 @@
 # Message Records
 
+**THIS IS PRE SFCK Research** PLEASE take this with a grain of salt while I update it with the SFCK information.
+
 ## Troubleshooting
+
 - If being displayed with .Show() the Message Record must have the MessageBox flag or it fails to display with no errors at all.
 
 ## Known issues
+
 - The "Smooth UI" class of mods screw with the notification speed so the default of 2s at 60FPS is like .5s and at 120FPS if it tries it usually crashes. The game engine loops seems tied the FPS for some lame reason. Also > 10s seems to stop increasing the delay before close. The engine seems to have a max delay.
 
 ## Example
 
-### XEdit 
+### XEdit
 
 ![xEdit Capture of a simple menu using a message record.](images/XEdit_MessageRecordMenu.png)
 
 ### Papyrus
+
 Below is the code to display and process the config menu in the xEdit image...
 
-```
+```papyrus
 Event OnEffectStart(ObjectReference akTarget, Actor akCaster, MagicEffect akBaseEffect, Float afMagnitude, Float afDuration)
   If (akTarget == PlayerRef as ObjectReference)
     PlayerRef.AddItem(NPCResizer_ConfigTerminal, 1, True) ;; Need to replace the item we just consumed to trigger the menu

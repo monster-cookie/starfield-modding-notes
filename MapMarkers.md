@@ -1,5 +1,7 @@
 # Map Markers
 
+**THIS IS PRE SFCK Research** PLEASE take this with a grain of salt while I update it with the SFCK information.
+
 ## Map Marker Type
 
 1. Unknown 00 - Cave Icon

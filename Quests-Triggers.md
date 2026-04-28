@@ -1,6 +1,6 @@
 # Quests - Triggers
 
-Triggering quests via starts enabled doesn't work outside of hidden init type quests because quest conditions are not checked so for the player they go active immediately. 
+Triggering quests via starts enabled doesn't work outside of hidden init type quests because quest conditions are not checked so for the player they go active immediately.
 
 Other then the barker quests/skits which require voice files to play, using Story Manage Quest Node and a CLOC event quest seems to be the best way to trigger quests. Another options is open world spawn items that script side trigger quests.
 
@@ -9,11 +9,13 @@ Other then the barker quests/skits which require voice files to play, using Stor
 Below is a fully setup quest trigger chain using the story manager CLOC event.
 
 ### xEdit
+
 ![Story Manager Node](./images/SM_Quest_Node.png)
 ![Trigger Quest](./images/Trigger_Quest_called_by_the_CLOC_event_from_the_SM_Quest_Node.png)
 
 ### Papyrus
-```
+
+```Papyrus
 ScriptName BH_BookHunt_Trigger_FRAGMENTS Extends Quest
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -45,4 +47,3 @@ Function Fragment_Stage_0010_Item_00()
   ; Self.Start()
 EndFunction
 ```
-
