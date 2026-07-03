@@ -1,23 +1,23 @@
 # Development Workflow
 
-## Prerequisites 
+## Prerequisites
 
-I don't use the BGS Papyrus plugin because its pretty opinionated and requires working from specific directories that don't play well with GIT based development 
+I don't use the BGS Papyrus plugin because its pretty opinionated and requires working from specific directories that don't play well with GIT based development
 
 1) Need a public or private GIT repo
 2) Need SFCK
-3) Need VS Code with Papyrus Plugin (https://marketplace.visualstudio.com/items?itemName=joelday.papyrus-lang-vscode)
+3) Need VS Code with [Papyrus Plugin](https://marketplace.visualstudio.com/items?itemName=joelday.papyrus-lang-vscode)
 4) Need powershell
-5) If you are not using MO2, you will need a file watcher to watch the Game Data directory and catch the random files CK makes like terrain, geomerties, etc. I recommend [FolderChangesView](https://www.nirsoft.net/utils/folder_changes_view.html)
+5) If you are not using MO2, you will need a file watcher to watch the Game Data directory and catch the random files CK makes like terrain, geometries, etc. I recommend [FolderChangesView](https://www.nirsoft.net/utils/folder_changes_view.html)
 6) Nifskope
 
 ## Repository Setup
 
-This works best with MO2 but MO2 VFS hasn't been working well on later Win11 installs. I mean it works but causes noticible lag and some tooling like nifskope/spriggit don't play well with it. 
+This works best with MO2 but MO2 VFS hasn't been working well on later Win11 installs. I mean it works but causes noticeable lag and some tooling like Nifskope/Spriggit don't play well with it.
 
 ### MO2
 
-Coming Soon, I need to use MO2 to sort out it compability issues with Creations Forge anyway. 
+Coming Soon, I need to use MO2 to sort out it compatibility issues with Creations Forge anyway.
 
 ### Vortex
 
@@ -33,9 +33,9 @@ Generally these instructions only need done once
 8) Edit sharedConfig.ps1, set $Global:ScriptingNamespaceModuleCompany, $Global:ScriptingNamespaceModuleName, $Global:ScriptingNamespaceSharedLibraryCompany, $Global:ScriptingNamespaceSharedLibraryName, and $Global:Databases
 9) Create a .env file (no black lines) see ENV Setup below in the References Section
 10) Delete the Staging folder if it exists
-11) In Powershell run ./Tools/setupRepo.ps1, this creates a folder junction with the MO2/Vortest staging folder
+11) In Powershell run ./Tools/setupRepo.ps1, this creates a folder junction with the MO2/Vortex staging folder
 
-## Normal Workfloe
+## Normal Workflow
 
 ### Papyrus Scripts
 
@@ -48,7 +48,7 @@ Generally these instructions only need done once
 
 If you have papyrus changes make them before launching SFCK.
 
-1) If not using MO2, remember to launch and set to moniytoring the FolderChangesView file watcher
+1) If not using MO2, remember to launch and set to monitoring the FolderChangesView file watcher
 2) Open SFCK (If using MO2 you have to launch it from MO2)
 3) Open the ESP
 4) Make your changes
@@ -60,6 +60,7 @@ If you have papyrus changes make them before launching SFCK.
 ## References
 
 ### .env file
+
 ```Plain Text
 STEAM_GAME_FOLDER=C:\Steam\steamapps\common\Starfield
 STEAM_DATA_FOLDER=C:\Steam\steamapps\common\Starfield\Data
@@ -76,9 +77,9 @@ PAPYRUS_COMPILER_FLAGS=C:\Steam\steamapps\common\Starfield\Data\Scripts\Source\
 #
 SPRIGGIT_VERSION=0.40.1
 #
-MODULE_DATABASE_PATH=C:\Users\monst\AppData\Roaming\Vortex\starfield\mods\Venworks - Encounters Overhaul
-MODULE_SCRIPTS_PATH=C:\Users\monst\AppData\Roaming\Vortex\starfield\mods\Venworks - Encounters Overhaul\Scripts
-MODULE_SCRIPTS_SOURCE_PATH=C:\Users\monst\AppData\Roaming\Vortex\starfield\mods\Venworks - Encounters Overhaul\Scripts\Source
+MODULE_DATABASE_PATH=C:\Users\username\AppData\Roaming\Vortex\starfield\mods\Venworks - Encounters Overhaul
+MODULE_SCRIPTS_PATH=C:\Users\username\AppData\Roaming\Vortex\starfield\mods\Venworks - Encounters Overhaul\Scripts
+MODULE_SCRIPTS_SOURCE_PATH=C:\Users\username\AppData\Roaming\Vortex\starfield\mods\Venworks - Encounters Overhaul\Scripts\Source
 ```
 
 NOTE: .env can't process ENV variables, go figure, so all the path must be fully qualified
@@ -91,8 +92,8 @@ NOTE: .env can't process ENV variables, go figure, so all the path must be fully
 - PAPYRUS_SCRIPTS_PATH the path to where papyrus scripts get stored in the Starfield Game Data folder
 - PAPYRUS_SCRIPTS_SOURCE_PATH the path to the source subfolder in the papyrus scripts folder
 - PAPYRUS_COMPILER_FLAGS currently the same as the PAPYRUS_SCRIPTS_SOURCE_PATH
-- SPRIGGIT_VERSION if you use it this is the version of sprggit to use
-- SPRIGGIT_PATH is the path to the spriggit CLI
+- SPRIGGIT_VERSION if you use it this is the version of Spriggit to use
+- SPRIGGIT_PATH is the path to the Spriggit CLI
 - MODULE_DATABASE_PATH is the path to the Vortex/MO2 staging folder
 - MODULE_SCRIPTS_PATH is the path to the scripts subfolder in the Vortex/MO2 staging folder
 - MODULE_SCRIPTS_SOURCE_PATH is the path to the Source subfolder in MODULE_SCRIPTS_PATH

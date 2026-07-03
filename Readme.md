@@ -31,23 +31,49 @@ This site is a collection of multiple peoples work and dedication and is meant t
 
 ## Table of Contents
 
-- [Starfield Modding Issues](./KnownModdingIssues.md)
-- [Starfield Load Order Issues](./LoadOrder.md)
-- [Starfield Naming Conventions](./NamingConventions.md)
-- [Cell Reset](./CellReset.md)
-- [Creature System (CCT)](./CreatureSystem.md)
-- [CTD Causes](./CTDCauses.md)
-- [Factions](./Factions.md)
-- [Ingestibles](./Ingestibles.md)
-- [Leveled Lists](./LeveledLists.md)
+### Troubleshooting
+
+- [Cell Reset](./Troubleshooting/CellReset.md)
+- [CTD Causes](./Troubleshooting/CTDCauses.md)
+- [Starfield Modding Issues](./Troubleshooting/KnownModdingIssues.md)
+- [Starfield Load Order Issues](./Troubleshooting/LoadOrder.md)
+
+### Modding
+
+- [My SFCK Workflow](./Modding/Workflow.md)
+- [Starfield Naming Conventions](./Modding/NamingConventions.md)
+
+### Systems
+
+- [Creature System (CCT)](./Systems/CreatureSystem.md)
+- [Planet Generation](./Systems/PlanetGeneration.md)
+
+### Major Record Types
+
+- [Factions](./MajorRecordTypes/Factions.md)
+- [Ingestibles](./MajorRecordTypes/Ingestibles.md)
+- [Leveled Lists](./MajorRecordTypes/LeveledLists.md)
+- [Message Records](./MajorRecordTypes/MessageRecords.md)
+- [Magic Effects](./MajorRecordTypes/MagicEffect.md)
+- [Pack-ins](./MajorRecordTypes/Pack-ins.md)
+- [Perks](./MajorRecordTypes/Perks.md)
+- [Spells](./MajorRecordTypes/Spells.md)
+- [World Space Cells](./MajorRecordTypes/WorldSpaceCells.md)
+
+#### NPCs
+
+- [NPCs](./NPCs/NPCs.md)
+- [Companions and Crew](./NPCs/NPCs-CompanionsAndCrew.md)
+- [Vendors](./NPCs/NPCs-Vendors.md)
+- [NPC Voice Setup](./NPCs/NPCs-VoiceSetup.md)
+- [Leveled NPCs](./NPCs/LeveledList-NPC.md)
+
+#### Quests
+
+- [Quests](./Quests/Quests.md)
+- [Scenes](./Quests/Quests-Scenes.md)
+- [Triggers](./Quests/Quests-Triggers.md)
+
+#### Other
+
 - [Map Markers](./MapMarkers.md)
-- [Message Records](./MessageRecords.md)
-- [Magic Effects](./MagicEffect.md)
-- [NPCs](./NPCs.md)
-- [Real Time Form Patcher \(RTFP\)](./rtfp.md)
-- [Pack-ins](./Pack-ins.md)
-- [Perks](./Perks.md)
-- [Planet Generation (PCM)](./PlanetGeneration.md)
-- [Spells](./Spells.md)
-- [Quests](./Quests.md)
-- [World Space Cells](./WorldSpaceCells.md)
