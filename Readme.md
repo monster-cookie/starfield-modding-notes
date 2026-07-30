@@ -35,6 +35,7 @@ This site is a collection of multiple people's work and dedication, and is meant
 ### Modding
 
 - [My SFCK Workflow](./Modding/Workflow.md)
+- [Blender to Starfield Static Asset Pipeline](./Modding/BlenderToStarfield.md)
 - [Starfield Naming Conventions](./Modding/NamingConventions.md)
 
 ### Systems
