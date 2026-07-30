@@ -77,7 +77,9 @@ Some repos commit generated artifacts so releases and packaging are reproducible
 2) Make your edits
 3) Run Tasks -> Run -> Compile Scripts
 4) Run Tasks -> Run -> Package Archives
-5) Open your Git IDE and commit the changes
+5) If using Vortex, you must use Deploy Mods and preserve the deployed file changes
+6) If using MO2, you must preserve the files in the Staging/Unkown files UI
+7) Open your Git IDE and commit the changes
 
 ### Game Database (ESP)
 
@@ -88,9 +90,11 @@ If you have Papyrus changes, make them before launching SFCK.
 3) Open the ESP
 4) Make your changes
 5) Use File -> Convert Archive (YOU MUST MATCH the ESM size type)
-6) Uncheck the ESP from the load order
-7) Launch Starfield and test
-8) Open your Git IDE and commit the changes
+6) If using Vortex, you must use Deploy Mods and preserve the deployed file
+7) If using MO2, you must preserve the files in the Staging/Unkown files UI
+8) Uncheck the ESP from the load order
+9) Launch Starfield and test
+10) Open your Git IDE and commit the changes
 
 ## Releases
 
